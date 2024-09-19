@@ -1,0 +1,12 @@
+#include <iostream>
+#include <limits.h>
+
+int main(){
+    int A = 1;
+    int INTER =A+INT_MAX;
+    unsigned int UN =A+UINT_MAX;
+    std::cout<<"int="<< INTER <<std::endl;
+    std::cout<<"unsigned int " << UN <<std::endl;
+    
+    return 0;
+}
