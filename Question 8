@@ -1,0 +1,408 @@
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+int main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    int Number_of_points;
+    cout<<"enter your score from 1 to 100"<<" ";
+    cin>>Number_of_points;
+
+    if(Number_of_points == 1)
+        cout<<"insufficient";
+    else {
+
+    }
+    if(Number_of_points == 2)
+        cout<<"insufficient";
+    else {
+
+    }
+    if(Number_of_points == 3)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 4)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 5)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 6)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 7)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 8)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 9)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 10)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 11)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 12)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 13)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 14)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 15)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 16)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 17)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 18)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 19)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 20)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 21)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 22)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 23)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 24)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 25)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 26)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 27)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 28)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 29)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 30)
+        cout<<"insufficient";
+    else {
+
+    }
+    if(Number_of_points == 31)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 32)
+        cout<<"insufficient";
+    else {
+
+    }if(Number_of_points == 33)
+        cout<<"insufficient";
+    else {
+
+    }
+    if(Number_of_points == 34)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 35)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 36)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 37)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 38)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 39)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 40)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 41)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 42)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 43)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 44)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 45)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 46)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 47)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 48)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 49)
+        cout<<"small";
+    else {
+
+    }if(Number_of_points == 50)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 51)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 52)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 53)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 54)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 55)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 56)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 57)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 58)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 59)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 60)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 61)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 62)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 63)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 64)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 65)
+        cout<<"Sufficient";
+    else {
+
+    }if(Number_of_points == 66)
+        cout<<"Sufficient";
+    else {
+        if(Number_of_points == 66)
+            cout<<"Sufficient";
+        else {
+        }
+        if(Number_of_points == 66)
+            cout<<"Sufficient";
+        else {
+        }
+    }
+
+    if(Number_of_points == 67)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 68)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 69)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 70)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 71)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 72)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 73)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 74)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 75)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 76)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 77)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 78)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 79)
+        cout<<"Sufficient";
+    else {
+    }if(Number_of_points == 80)
+        cout<<"Perfectly";
+    else {
+    }
+
+
+    if(Number_of_points == 81)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 82)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 83)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 84)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 85)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 86)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 87)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 88)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 89)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 90)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 91)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 92)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 93)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 94)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 95)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 96)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 97)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 98)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 99)
+        cout<<"Perfectly";
+    else {
+    }if(Number_of_points == 100)
+        cout<<"Perfectly";
+    else {
+    }
+    if(Number_of_points < -1)
+        cout<<"Dont have any assessment for u";
+        else {
+
+        }
+    if(Number_of_points > 100)
+        cout<<"Who are u?GENIUS";
+    else {
+
+    }
+    cout<<" "; system(" " "PAUSE");
+    return 0;
+
+}
