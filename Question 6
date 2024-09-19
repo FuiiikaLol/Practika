@@ -1,0 +1,16 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+
+int main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+
+    int Тарілки=20;
+    int Стакани=20;
+    int Ножі=20;
+
+    int Сума=Тарілки+Стакани+Ножі;
+    cout<<Сума<<endl;
+    return 0;
+}
