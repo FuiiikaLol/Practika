@@ -1,0 +1,24 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+
+int main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    int Water=20;
+     int Coffe=20;
+      int Vodka=20;
+       float priceCoffe=99.9;
+        float priceWater=15.9;
+         float priceVodka=45.5;
+    float total_cost_Coffe=Coffe*priceCoffe;
+    float total_cost_Water=Water*priceWater;
+    float total_cost_Vodka=Vodka*priceVodka;
+    float total_cost=total_cost_Coffe+total_cost_Vodka+total_cost_Water;
+ cout<<total_cost_Coffe<<" "<<"UAH"<<endl;
+ cout<<total_cost_Vodka<<" "<<"UAH"<<endl;
+ cout<<total_cost_Water<<" "<<"UAH"<<endl;
+ cout<<total_cost<<" "<<"UAH"<<endl;
+ return 0;
+}
+
