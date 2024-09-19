@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main(){
+    
+    int age=18;
+    std::cout<<"Int="<<age<<std::endl;
+    
+    float a,b=20,c=30,h=20;
+    float suma=a+b+c*h;
+    
+    std::cout<< "float=20+30*20=" <<suma<< std::endl;
+    
+    double k=155;
+    std::cout<<"Double="<<k<< std::endl;
+    
+    
+    char o='P';
+    std::cout<<"char="<<o<< std::endl;
+    
+    bool isChef = true;
+    std::cout<<"bool  Я жоский! "<<isChef<< std::endl;
+    
+    return 0;
+    
+    
+}
