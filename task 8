@@ -1,408 +1,318 @@
 #include <iostream>
-#include <windows.h>
-
 using namespace std;
-int main() {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-    int Number_of_points;
-    cout<<"enter your score from 1 to 100"<<" ";
-    cin>>Number_of_points;
 
-    if(Number_of_points == 1)
-        cout<<"insufficient";
-    else {
-
+int main(){
+    cout<<"Enter your points"<<endl;
+    int Number_Of_Points;
+    cin >> Number_Of_Points;
+    
+    switch(Number_Of_Points){
+        case 1:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 2:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 3:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 4:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 5:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 6:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 7:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 8:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 9:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 10:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 11:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 12:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 13:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 14:
+        cout<<"Insufficient"<<endl;
+        break;    
+        case 15:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 16:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 17:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 18:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 19:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 20:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 21:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 22:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 23:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 24:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 25:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 26:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 27:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 28:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 29:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 30:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 31:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 32:
+        cout<<"Insufficient"<<endl;
+        break;
+        case 33:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 34:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 35:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 36:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 37:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 38:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 39:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 40:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 41:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 42:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 43:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 44:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 45:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 46:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 47:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 48:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 49:
+        cout<<"Sufficient"<<endl;
+        break;
+        case 50:
+        cout<<"Average"<<endl;
+        break;
+        case 51:
+        cout<<"Average"<<endl;
+        break;
+        case 52:
+        cout<<"Average"<<endl;
+        break;
+        case 53:
+        cout<<"Average"<<endl;
+        break;
+        case 54:
+        cout<<"Average"<<endl;
+        break;
+        case 55:
+        cout<<"Average"<<endl;
+        break;
+        case 56:
+        cout<<"Average"<<endl;
+        break;
+        case 57:
+        cout<<"Average"<<endl;
+        break;
+        case 58:
+        cout<<"Average"<<endl;
+        break;
+        case 59:
+        cout<<"Average"<<endl;
+        break;
+        case 60:
+        cout<<"Average"<<endl;
+        break;
+        case 61:
+        cout<<"Average"<<endl;
+        break;
+        case 62:
+        cout<<"Average"<<endl;
+        break;
+        case 63:
+        cout<<"Average"<<endl;
+        break;
+        case 64:
+        cout<<"Average"<<endl;
+        break;
+        case 65:
+        cout<<"Average"<<endl;
+        break;
+        case 66:
+        cout<<"High"<<endl;
+        break;
+        case 67:
+        cout<<"High"<<endl;
+        break;
+        case 68:
+        cout<<"High"<<endl;
+        break;
+        case 69:
+        cout<<"High"<<endl;
+        break;
+        case 70:
+        cout<<"High"<<endl;
+        break;
+        case 71:
+        cout<<"High"<<endl;
+        break;
+        case 72:
+        cout<<"High"<<endl;
+        break;
+        case 73:
+        cout<<"High"<<endl;
+        break;
+        case 74:
+        cout<<"High"<<endl;
+        break;
+        case 75:
+        cout<<"High"<<endl;
+        break;
+        case 76:
+        cout<<"High"<<endl;
+        break;
+        case 77:
+        cout<<"High"<<endl;
+        break;
+        case 78:
+        cout<<"High"<<endl;
+        break;
+        case 79:
+        cout<<"High"<<endl;
+        break;
+        case 80:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 81:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 82:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 83:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 84:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 85:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 86:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 87:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 88:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 89:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 90:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 91:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 92:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 93:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 94:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 95:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 96:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 97:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 98:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 99:
+        cout<<"Perfectly"<<endl;
+        break;
+        case 100:
+        cout<<"Perfectly"<<endl;
+        break;
+    }   
+    if(Number_Of_Points < -1)
+    cout<<"What?"<<endl;
+    else{
     }
-    if(Number_of_points == 2)
-        cout<<"insufficient";
-    else {
-
-    }
-    if(Number_of_points == 3)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 4)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 5)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 6)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 7)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 8)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 9)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 10)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 11)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 12)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 13)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 14)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 15)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 16)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 17)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 18)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 19)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 20)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 21)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 22)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 23)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 24)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 25)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 26)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 27)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 28)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 29)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 30)
-        cout<<"insufficient";
-    else {
-
-    }
-    if(Number_of_points == 31)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 32)
-        cout<<"insufficient";
-    else {
-
-    }if(Number_of_points == 33)
-        cout<<"insufficient";
-    else {
-
-    }
-    if(Number_of_points == 34)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 35)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 36)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 37)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 38)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 39)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 40)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 41)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 42)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 43)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 44)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 45)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 46)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 47)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 48)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 49)
-        cout<<"small";
-    else {
-
-    }if(Number_of_points == 50)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 51)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 52)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 53)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 54)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 55)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 56)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 57)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 58)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 59)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 60)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 61)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 62)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 63)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 64)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 65)
-        cout<<"Sufficient";
-    else {
-
-    }if(Number_of_points == 66)
-        cout<<"Sufficient";
-    else {
-        if(Number_of_points == 66)
-            cout<<"Sufficient";
-        else {
-        }
-        if(Number_of_points == 66)
-            cout<<"Sufficient";
-        else {
-        }
-    }
-
-    if(Number_of_points == 67)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 68)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 69)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 70)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 71)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 72)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 73)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 74)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 75)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 76)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 77)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 78)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 79)
-        cout<<"Sufficient";
-    else {
-    }if(Number_of_points == 80)
-        cout<<"Perfectly";
-    else {
-    }
-
-
-    if(Number_of_points == 81)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 82)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 83)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 84)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 85)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 86)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 87)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 88)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 89)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 90)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 91)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 92)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 93)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 94)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 95)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 96)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 97)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 98)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 99)
-        cout<<"Perfectly";
-    else {
-    }if(Number_of_points == 100)
-        cout<<"Perfectly";
-    else {
-    }
-    if(Number_of_points < -1)
-        cout<<"Dont have any assessment for u";
-        else {
-
-        }
-    if(Number_of_points > 100)
-        cout<<"Who are u?GENIUS";
-    else {
-
-    }
-    cout<<" "; system(" " "PAUSE");
-    return 0;
+    if(Number_Of_Points > 100)
+    cout<<"What?"<<endl;
 
 }
