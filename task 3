@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 int b;
-int i;
-int a;
+
+
 int f=1;
 int suma;
 
 
 int main() {
+  int i;
     for (i=1;i<=10;i++) {
       
         
@@ -15,12 +16,21 @@ int main() {
         cout<<i<<endl;
     }
     
-   
-   for(a=2;a<=20;a+=2) {
-      
-     cout<<a<< endl;
+   int a=2;
+   do {
+    
+     
+     cout<<a<<endl;
+     a+=2;
+       
    }
-   
+
+     while (a<=20);
+      
+     
+      
+   int f=1;
+   int suma;
    while(f<=100){
      suma+=f;
      f++;
