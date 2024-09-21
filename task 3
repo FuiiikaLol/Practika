@@ -3,20 +3,29 @@ using namespace std;
 int b;
 int i;
 int a;
+int f=1;
 int suma;
 
 
 int main() {
     for (i=1;i<=10;i++) {
-        if(i==10){
-            break;
-        }
-    } // АБО
-    for (b=1;b<=9;b++) {
-
+      
+        
+          
+        cout<<i<<endl;
     }
-    cout<<i<<endl;
-    cout<<b<<endl;
-
-
+    
+   
+   for(a=2;a<=20;a+=2) {
+      
+     cout<<a<< endl;
+   }
+   
+   while(f<=100){
+     suma+=f;
+     f++;
+   }
+     cout<<suma;
+     
+   
 }
