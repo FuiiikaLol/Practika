@@ -1,0 +1,33 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+
+int main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+
+    int f; // так треба
+    int One=0;// 1 число
+    int Two=0; // 2 число
+    int Three=0; // 3 число
+    int maximum; //Значення максимальне число
+
+    cout<<"enter 3 numbers from 1 to 10 to identify the most of them"<<endl;
+    cout<<"enter the first number"<<endl;
+
+    cin >> One;
+
+    cout<<"Enter the second number"<<endl;
+
+    cin>> Two;
+
+    cout<<"Enter the last number"<<endl;
+
+    cin>> Three;
+
+    f = (One>Two)?One:Two;
+    maximum =(f>Three)?f:Three;
+    cout<<"Your maximum number it"<<endl;
+    cout<<maximum<<endl;
+    return 0;
+}
