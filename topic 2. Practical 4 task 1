@@ -29,5 +29,6 @@ int main() {
     maximum =(f>Three)?f:Three;
     cout<<"Your maximum number it"<<endl;
     cout<<maximum<<endl;
+    system("PAUSE");
     return 0;
 }
