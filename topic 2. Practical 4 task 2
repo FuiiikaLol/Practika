@@ -17,5 +17,7 @@ int main() {
     }
     
     std::cout << std::endl; // Переносимо на новий рядок
+system("PAUSE");
     return 0;
+
 }
