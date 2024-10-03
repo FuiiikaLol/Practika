@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main() {
+    for (int num = 2; num <= 100; num++) {
+        bool isPrime = true; // Вважаємо, що число просте
+        
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                isPrime = false; // Знайшли дільник, число не просте
+                break; // Виходимо з циклу
+            }
+        }
+        
+        if (isPrime) {
+            std::cout << num << " "; // Виводимо просте число
+        }
+    }
+    
+    std::cout << std::endl; // Переносимо на новий рядок
+    return 0;
+}
