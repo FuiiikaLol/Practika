@@ -8,12 +8,12 @@ int main() {
     SetConsoleOutputCP(1251);
 
 
-    int a;
+    int x;
     std::cout<<"Enter x number for variable AND - ";
-     cin>>a;
+     cin>>x;
     std::cout<<"Enter y number for variable AND - ";
-    int b;
-     cin>>b;
+    int y;
+     cin>>y;
 
     int suma=a&b;
     std::cout<<suma<<std::endl;
