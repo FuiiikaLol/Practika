@@ -1,0 +1,22 @@
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+
+int main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+
+
+    int a;
+    std::cout<<"Enter x number for variable AND - ";
+     cin>>a;
+    std::cout<<"Enter y number for variable AND - ";
+    int b;
+     cin>>b;
+
+    int suma=a&b;
+    std::cout<<suma<<std::endl;
+
+    system("PAUSE");
+}
